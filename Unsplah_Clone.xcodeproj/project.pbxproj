@@ -60,7 +60,6 @@
 		95AE9EB02645A3C3002D956F /* MainMenuTableViewSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9EAF2645A3C3002D956F /* MainMenuTableViewSecondCell.swift */; };
 		95AE9EB72645C8D6002D956F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9EB62645C8D6002D956F /* LoginViewController.swift */; };
 		95AE9EBE2645C910002D956F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9EBD2645C910002D956F /* RegisterViewController.swift */; };
-		95AE9EC22645D07E002D956F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95AE9EC12645D07E002D956F /* GoogleService-Info.plist */; };
 		95AE9EC82645DCD9002D956F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9EC72645DCD9002D956F /* Color.swift */; };
 		95AE9ECC2645E448002D956F /* StringColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9ECB2645E448002D956F /* StringColor.swift */; };
 		95AE9ECF26472BE8002D956F /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9ECE26472BE8002D956F /* ResetViewController.swift */; };
@@ -84,7 +83,7 @@
 		95F00432264298C4004E85CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F00431264298C4004E85CF /* Assets.xcassets */; };
 		95F00435264298C4004E85CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F00433264298C4004E85CF /* LaunchScreen.storyboard */; };
 		B025D81A3688B3A1A5C91FFA /* Pods_Unsplah_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80087C2C5CB9E228B724BA60 /* Pods_Unsplah_Clone.framework */; };
-		BDC6EB432D42A46A000B02DB /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BDC6EB422D42A46A000B02DB /* swiftlint.yml */; };
+		BDC6EB452D42A9BA000B02DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC6EB442D42A9BA000B02DB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,7 +143,6 @@
 		95AE9EAF2645A3C3002D956F /* MainMenuTableViewSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewSecondCell.swift; sourceTree = "<group>"; };
 		95AE9EB62645C8D6002D956F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		95AE9EBD2645C910002D956F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		95AE9EC12645D07E002D956F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		95AE9EC72645DCD9002D956F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		95AE9ECB2645E448002D956F /* StringColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringColor.swift; sourceTree = "<group>"; };
 		95AE9ECE26472BE8002D956F /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
@@ -169,7 +167,7 @@
 		95F00431264298C4004E85CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F00434264298C4004E85CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95F00436264298C4004E85CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDC6EB422D42A46A000B02DB /* swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftlint.yml; sourceTree = "<group>"; };
+		BDC6EB442D42A9BA000B02DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E52BEF0CCCFCA4A46FE83DF7 /* Pods-Unsplah_Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplah_Clone.release.xcconfig"; path = "Target Support Files/Pods-Unsplah_Clone/Pods-Unsplah_Clone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -494,7 +492,6 @@
 		95F00427264298BF004E85CF /* Unsplah_Clone */ = {
 			isa = PBXGroup;
 			children = (
-				BDC6EB422D42A46A000B02DB /* swiftlint.yml */,
 				95A39D6226613EA800F07A1D /* Unsplah_Clone.entitlements */,
 				95AE9EA62645A125002D956F /* ReusableComponent */,
 				95F0043F264298FC004E85CF /* Module */,
@@ -510,7 +507,7 @@
 			isa = PBXGroup;
 			children = (
 				95F00428264298BF004E85CF /* AppDelegate.swift */,
-				95AE9EC12645D07E002D956F /* GoogleService-Info.plist */,
+				BDC6EB442D42A9BA000B02DB /* GoogleService-Info.plist */,
 				95F00436264298C4004E85CF /* Info.plist */,
 				95F0042A264298BF004E85CF /* SceneDelegate.swift */,
 			);
@@ -630,9 +627,8 @@
 				95F00432264298C4004E85CF /* Assets.xcassets in Resources */,
 				95AE9EE62647BEE9002D956F /* Login.storyboard in Resources */,
 				95F00430264298BF004E85CF /* Main.storyboard in Resources */,
+				BDC6EB452D42A9BA000B02DB /* GoogleService-Info.plist in Resources */,
 				95AE9E9726459BD3002D956F /* MainMenuTableViewFirstCell.xib in Resources */,
-				95AE9EC22645D07E002D956F /* GoogleService-Info.plist in Resources */,
-				BDC6EB432D42A46A000B02DB /* swiftlint.yml in Resources */,
 				95AE9E9B26459CCA002D956F /* MainMenuTableViewSecondCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -910,7 +906,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dennis-hong.Unsplah-Clone";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rd.Unsplah-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -932,7 +928,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dennis-hong.Unsplah-Clone";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rd.Unsplah-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
