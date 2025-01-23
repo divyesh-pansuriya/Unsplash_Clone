@@ -1,0 +1,10 @@
+excluded:
+    - UITests
+    - Tests
+
+opt_in_rules:
+    - indentation_width
+    - explicit_self
+    - operator_usage_whitespace
+
+warning_threshold: 20
